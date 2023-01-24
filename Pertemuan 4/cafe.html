@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+<body>
+<script>
+  const cafe = {
+    name : "Cafe Ceria",
+    businessHours : {
+      opening: "10:10",
+      closing: "20:20"
+      // Tetapkan atribut opening : 10:10 dan closing: 20:00
+      //.....
+    },
+
+    menu : ["Kopi", "Teh", "Kue", "Coklat"],
+
+  };
+
+  console.log(`Nama : ${cafe.name}`);
+  console.log(`Jam : Dari jam ${cafe.businessHours.opening} sampai jam ${cafe.businessHours.closing}`);
+  console.log(`-------------------------`)
+  console.log (`Menu Rekomendasi`);
+
+  for(let i=0; i<cafe.menu.length; i++){
+    console.log(`${cafe.menu[i]}`);
+  }
+
+  // Gunakan loop for untuk mencetak nilai array menu
+  //....
+
+</script>
+</body>
+</html>
